@@ -1,0 +1,24 @@
+{
+	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tutor",
+	"version": "0.1.0",
+	"description": "数学（数Ⅰ～数Ⅲや数A・B・Cなど）、英語（大学入試レベル）、その他様々な大学入試レベルの問題までを理解するために作られたプラグイン",
+	"author": {
+		"name": "tas0dev"
+	},
+	"extensions": {
+		"com.openai": {
+			"interface": {
+				"displayName": "Study Tutor",
+				"shortDescription": "理解できるまで教える学習プラグイン",
+				"longDescription": "数学（数Ⅰ～数Ⅲや数A, B, C）、英語（大学入試レベル）、その他様々な大学入試レベルの問題までを理解するために作られたプラグインです。",
+				"developerName": "tas0dev",
+				"category": "Education",
+				"capabilities": [
+					"Interactive"
+				],
+				"defaultPrompt": "ここにわからない問題や徹底的に強化したい教科、単元を記入してください"
+			}
+		}
+	}
+}
